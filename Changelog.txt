@@ -1,0 +1,263 @@
+23.09.2020 - Version 0.1.4:
+- Initial Release
+
+24.09.2020 - Version 0.1.5:
+- Core.lua
+	- bugfix search function
+
+24.09.2020 - Version 0.1.6:
+- Core.lua
+	- renamed some tracks
+	- added new tracks
+
+24.09.2020 - Version 0.1.7:
+- Core.lua
+	- added searchfunction ignores lower and uppercase
+	- playing wrong audiofile fix
+
+24.09.2020 - Version 0.1.8
+- Core.lua
+	- added new tracks
+
+24.09.2020 - Version 0.1.9
+- Core.lua
+	- added new tracks
+
+25.09.2020 - Version 0.2
+- Core.lua
+	- added favorite function
+
+25.09.2020 - Version 0.2.1
+- Core.lua
+	- fixed scrolling for favorites
+	- auto close favorites on tracks ui hide
+	- removed title text in tracks and help frame
+
+25.09.2020 - Version 0.2.2
+- Core.lua
+	- sort favorites list
+	- added favorite search
+	- added favorite current song button in miniui
+	- speed up addon
+
+25.09.2020 - Version 0.2.3
+- Core.lua
+	- corrected enchanted forest track names
+	- added autoplay off command
+	- added favorite autoplay
+
+26.09.2020 - Version 0.2.4
+- Core.lua
+	- added support to queue tracks into favorite autoplay which are not listed as favorite
+	- added new tracks
+	- fixed reload of autoplay
+
+26.09.2020 - Version 0.2.5
+- core.lua
+	- added localization
+- localization.core.lua added
+- localization.de.lua added
+
+26.09.2020 - Version 0.2.6
+- core.lua
+	- added cancel option for autoplay select
+
+27.09.2020 - Version 0.2.7
+- core.lua
+	- added automatic addition/removal on add/remove favorite in favorite autoplaylist
+
+14.10.2020 - Version 0.2.8
+- core.lua
+	- Updated for Shadowlands Prepatch
+	- added message when try to play favorite autoplay and no favorite was set
+
+14.10.2020 - Version 0.2.9
+- localization.de.lua
+	- German translation for "No favorites set" added
+- core.lua
+	- added new tracks
+
+15.10.2020 - Version 0.3
+- core.lua
+	- added new tracks
+	- added pause function
+	- added "/pause" command
+	- autoplaylist predefined
+	- fixed "test" spam in chat when playing favorite autoplay with valid number of favorites in favoritelist
+	- fixed that there were a song 2 times in favorite autoplay if it was queued while it was no favorite and later added to favorite
+	- improved update miniui
+
+19.10.2020 - Version 0.3.1
+- core.lua
+	- added the ability to queue a sound
+	- playing favorite autoplay now right when added a sound to it
+	- fixed the endless river sound when playing the river sound and reloading/logging out before stopping the sound
+	- fixed queue function and enabled full functional multi queue
+	- removed queue message
+
+28.10.2020 - Version 0.3.2
+- core.lua
+	- shortened some functions
+	- added minimap Icon
+	- added minimap command
+- added Libs folder
+	- added CallbackHandler-1.0
+	- added LibDataBroker-1.1
+	- added LibDBIcon-1.0
+	- added LibStub
+	- added Libs.xml
+
+30.10.2020 - Version 0.3.3
+- core.lua
+	- added playlists
+	- fixed scrolling in favorite playlist
+	- fixed a bug that showed too few entries before scrolling
+	- shortened scroll function
+- Libs
+	- fixed library issue
+
+30.10.2020 - Version 0.3.4
+- core.lua
+	- added autoplay to playlist
+	- fixed addition of not existing tracks
+	- fixed autoplay favorite when all favorites were removed
+	- moved "No favorites set" to errorframe
+
+30.10.2020 - Version 0.3.5
+- core.lua
+	- added search for playlists
+	- added automatic update of search frame when a favorite were removed
+	- removed the Add Playlist/Back Button from Favorites after leaving Playlists
+
+31.10.2020 - Version 0.3.6
+- core.lua
+	- added shuffle function to miniui
+	- added api
+	- added new tracks
+	- removed "Theme" from nearly every description
+	- removed "1" from nearly every description where it indicated thats the first track of this kind
+	- removed all "01" from track names
+
+31.10.2020 - Version 0.3.7
+- core.lua
+	- fix for namechanged songs blocking favoritelist and playlists
+	- removed all "1" from track names which indicated thats the first track of this kind
+
+01.11.2020 - Version 1.0
+- core.lua
+	- added a check that after pressing the playbutton it checks if the song exists
+	- added the option to add custom tracks
+	- adds now all sounds regardless of soundtype to favorite autoplay and playlists autoplay
+	- added restoration of last search after going back from certain frames
+	- fixed adding a song to autoplay with the play button while it was not in the autoplaylist
+	- fixed search function shows always remove button button
+	- fixed false removal of songs from search after removing it from favoritelist
+	- removed 1 song multiple times in queue
+
+01.11.2020 - Version 1.0.1
+- core.lua
+	- added auto renaming of every playlist and custom track with more then 1 space
+	- fixed false numbers of displayed entries
+	- fixed a failure of loading correct tab in the track ui
+	- fixed deleting custom track while searching
+	- restricted playlist names to 1 space
+
+03.11.2020 - Version 1.0.2
+- core.lua
+	- fixed playlists with space
+	- fixed autosearch in addtrack tab after failing to add an track
+
+23.11.2020 - Version 1.0.3
+- core.lua
+	- added some tracks
+- em.toc
+	- updated for 9.0.2
+
+23.11.2020 - Version 1.0.4
+- core.lua
+	- fixed a autoplay playlist bug and now there are no longer any songs from old autoplays in your new autoplay
+
+26.11.2020 - Version 1.0.5
+- core.lua
+	- added an option to select if you want to add a track in miniui to favorites or blacklist
+	- added blacklist function
+	- fixed custom track removal
+	- fixed some redirections
+	- fixed list starting at wrong position
+	- increased main windows size
+	- changed scroll value
+	- changed remove track from an autoplay playlist behavior
+
+28.11.2020 - Version 1.0.6
+- core.lua
+	- added daily list
+	- added some error messages
+	- added unmute of sfx when a sound is being played
+	- fixed names of "Add to" buttons
+	- fixed disappearance of "Add to" button
+	- fixed Blacklist for autoplay
+	- fixed auto rename of playlists
+	- fixed scroll issues within playlists
+	- fixed overall scroll issues with the "Back" button or if you create something
+	- saves your lastplayed songs on your computer to create a daily playlist for you
+
+28.11.2020 - Version 1.0.6.5
+- core.lua
+	- hotfix playing whole time wrong playlist
+
+28.11.2020 - Version 1.0.7
+- core.lua
+	- fix for blacklist deleting songs out of not normal autoplay, like playlist autoplay
+	- fix for SFX command
+	- fix for daily playlist, it is now updating when you're ingame and going into the playlist tab
+
+30.01.2021 - Version 1.0.8
+- core.lua
+	- fix for dailylisty more than 1 occurrence of a track in the playlist
+	- reposition of some buttons
+	- added new tracks
+
+16.02.2021 - Version 1.0.9
+- core.lua
+	- fixed track names, mainly of tavern dwarf tracks
+	- fixed removal of unavailable songs in dailylist
+	- added permahide for miniui and minimap icon
+- libs
+	- all libs updated
+
+24.02.2021 - Version 1.1.0
+- core.lua
+	- added new tracks
+
+10.03.2021 - Version 1.1.0.5
+- em.toc
+	- updated to 9.0.5
+
+28.03.2021 - Version 1.1.1
+- core.lua
+	- added the duration of the current track in form of a bar for the MiniUI frame
+- libs
+	- removed unnecessary libs
+	- added libCandyBar
+
+28.03.2021 - Version 1.1.2
+- core.lua
+	- added a removal for the duration bar when the song got stopped/paused or in any way interrupted
+	- added new tracks
+
+28.03.2021 - Version 1.1.3
+- core.lua
+	- fixed removal of a track from autoplaylist
+	- fixed search in dayli playlist
+	- added that if the current track gets removed from autoplaylist the next track gets played
+	- added suggestion list
+	- added new sources of tracks to the daily list
+
+30.03.2021 - Version 1.1.4
+-core.lua
+	- scroll function rewritten to fix bugs in scrolling
+	- fixed message from suggestion list
+
+30.03.2021 - Version 1.1.5
+- core.lua
+	- removed localization

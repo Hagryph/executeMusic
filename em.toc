@@ -1,0 +1,13 @@
+## Interface: 90005
+## Title: Execute Music
+## Author: Hagryph
+## Version: 1.1.4
+## Notes: A tool to play In-Game music, sounds and custom tracks.
+## SavedVariables: favorites, playlists, customs, blacklist, log1000, dailyList, frameStatus, heard, suggestionList
+
+Libs\LibCandyBar-3.0\embeds.xml
+Libs\LibCandyBar-3.0\LibCandyBar-3.0\lib.xml
+Libs\LibDBIcon-1.0\embeds.xml
+Libs\LibDBIcon-1.0\LibDBIcon-1.0\lib.xml
+
+core.lua
