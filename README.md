@@ -89,11 +89,8 @@ It has a miniUi which displays the last track, can stop/pause the music, opens t
 
 # Contact
 
-Suggestions for improvement, errors and malfunction to: Hagryph#1270 on Discord
-
-# OR
-
-Bloodyface#21763 on BNet
+- Hagryph#1270 on Discord
+- Bloodyface#21763 on BNet
 
  
 
