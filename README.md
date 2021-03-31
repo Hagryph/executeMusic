@@ -1,7 +1,7 @@
 # executeMusic
 A WoW Addon to play in-game tracks and own mp3 files
 
-#General
+# General
 
 With this Add-On you can play wow music/sounds and your own tracks on command. You can use for this the command /play [track] or do it from within the ui. You can also use the autoplay function and play random tracks.
 
@@ -11,7 +11,7 @@ It has a miniUi which displays the last track, can stop/pause the music, opens t
 
  
 
-#Functions
+# Functions
 
 - 1000+ tracks
 
@@ -59,7 +59,7 @@ It has a miniUi which displays the last track, can stop/pause the music, opens t
 
  
 
-#SLASH COMMANDS
+# SLASH COMMANDS
 
 /play [track]
 
@@ -87,16 +87,16 @@ It has a miniUi which displays the last track, can stop/pause the music, opens t
 
  
 
-#Contact
+# Contact
 
 Suggestions for improvement, errors and malfunction to: Hagryph#1270 on Discord
 
-#OR
+# OR
 
 Bloodyface#21763 on BNet
 
  
 
-#UPCOMING CHANGES
+# UPCOMING CHANGES
 
 - more tracks
