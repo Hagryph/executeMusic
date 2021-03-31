@@ -1,0 +1,97 @@
+executeMusic:toggleAutoplay()
+If you want to toggle autoplay (autoplay on/off) just call this function
+
+ 
+
+executeMusic:toggleFavAutoplay()
+With this you can toggle favorite autoplay (favorite autoplay on/off)
+
+ 
+
+executeMusic:autoplayOff()
+Stop autoplay with this
+
+ 
+
+executeMusic:hideTracks()
+This function hides the track frame with all tracks, favorites and playlists
+
+ 
+
+executeMusic:showTracks()
+Let the track frame show up
+
+ 
+
+executeMusic:hideCommands()
+This is the function to hide the help frame
+
+ 
+
+executeMusic:showCommands()
+Set help frame visible
+
+ 
+
+executeMusic:hideMini()
+hide miniui
+
+ 
+
+executeMusic:showMini()
+show miniui
+
+ 
+
+executeMusic:errorMessage(message)
+Here you can create an error message like the error message from execute music just give the function the message you want to show up
+
+message:Text
+
+ 
+
+executeMusic:createButton(pos, posX, posY, width, height, name, parentframe, font, rfc, rfcType, title)
+Here you can create a button in the execute music style for your own frames
+
+pos:Text e.g. "TOP; "BOTTOM"; "TOPLEFT";"RIGHT";...
+
+posX:Number
+
+posY:Number
+
+width:Number
+
+height:Number
+
+name:Text e.g. "Search" then a button will show up with the text "Search"
+
+parentframe:Frame e.g. f = CreateFrame("Frame","mainframe",UIParent)
+executeMusic:createButton(_, _, _, _, _, _, mainframe, ...)
+
+font:Font
+
+rfc:Boolean set this true if you want it to register the button for clicks
+
+rfcType:Text which clicks should be registered e.g. "AnyUp"
+
+title:Text which title the button should have e.g. f = CreateFrame("Frame",title,UIParent)
+
+ 
+
+executeMusic:nextSong()
+plays next song in autoplay if autoplay is active and not paused
+
+ 
+
+executeMusic:lastSong()
+plays last song in autoplay if autoplay is active and not paused
+
+ 
+
+executeMusic:togglePause()
+pause/unpause music
+
+ 
+
+executeMusic:stopMusic()
+stops music
